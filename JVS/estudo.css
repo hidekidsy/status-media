@@ -1,0 +1,234 @@
+html , body {
+	height: 100%;
+	margin: auto;
+}
+
+#menu {
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+	display: flex;
+	position: absolute;
+	z-index: 10;
+	color: white;
+	flex-direction: row;
+	justify-content: space-between;
+
+
+}
+
+#menu .logo{
+	display: flex;
+	font-size: 24px;
+	align-items: center;
+}
+
+ul{
+	align-items: center; 
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+
+}
+
+.li-menu{	
+	padding: 30px;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+
+}
+
+.li-menu:hover {	
+	padding: 30px;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(0,0,0,.5);
+
+}
+
+h1 {
+	letter-spacing: 20px;
+
+}
+
+.table{
+	margin-top: 40px;
+}
+
+#estudantes-mes{
+	display: flex;
+	justify-content: center;
+	font-size: 24px;
+}
+
+th, td {
+	text-align: center;
+}
+
+td{
+	width: 150px;
+}
+
+.titulo-carousel{
+	margin: auto;
+	color: white;
+	letter-spacing: 10px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 2px solid white;
+	padding: 20px 40px;
+	position: absolute;
+	z-index: 10;
+
+}
+
+.titulo-1{
+	margin: auto;
+	color: white;
+	letter-spacing: 10px;
+	top: 40%;
+	width: 35%;
+	border: 2px solid white;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+
+}
+
+.titulo-1 h3 {
+	text-align: center;
+	margin-bottom: 20px;
+	margin-right: 0;
+}
+
+.parallax{
+	background-image: url(img/img3.jpg);
+	height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.parallax1{
+	background-image: url(img/img4.jpg);
+	height: 500px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+
+.divs{
+	padding: 40px;
+	text-align: center;
+}
+
+.titulo{
+	letter-spacing: 10px;
+	margin-bottom: 20px;
+}
+
+p {
+	line-height: 30px;
+	text-align: left;
+}
+
+.div-tabela{
+	position: relative;
+	padding: 40px;
+}
+
+footer{
+	margin-top: -20px;
+	background-color: #424242;
+	height: 180px;
+	
+}
+
+footer h2{
+	padding-top: 40px;
+	margin-left: 20%;
+	color: white
+}
+
+
+.reprovado{
+	background-color: lightcoral;
+	font-weight: bold;
+	color: white;
+}
+
+.reprovado-nota{
+	color: red;
+	font-weight: bold;
+}
+
+.aprovado{
+	background-color: #4fd200;
+	font-weight: bold;
+	color: white;
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	width: 33%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+button{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: white !important;
+	background-color:#0c8cd3;
+	border-color: #04324c;
+	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+
+}
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+
+
+
